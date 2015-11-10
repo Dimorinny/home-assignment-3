@@ -1,3 +1,3 @@
 # Home-assignment-3
 ### Usage
-[![asciicast](https://asciinema.org/a/1isisixbwf4c6ctm42de4e309.png)](https://asciinema.org/a/1isisixbwf4c6ctm42de4e309)
+[![asciicast](https://asciinema.org/a/f5bwupuzil2a0njrtbj5i44d9.png)](https://asciinema.org/a/f5bwupuzil2a0njrtbj5i44d9)
