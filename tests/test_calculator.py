@@ -14,7 +14,7 @@ class EvaluateTestCase(unittest.TestCase):
 			evaluate("not_supported", 1, 2)
 
 	def test_supported_method(self):		
-		self.assertAlmostEqual(evaluate("+", 1, 2), 1 + 2)
+		self.assertAlmostEqual(evaluate("+", 1, 2), 3)
 
 class OperatorTestCase(unittest.TestCase):
 	def setUp(self):
