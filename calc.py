@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from custom_operator import add, sub, mul, truediv
-from math import sin
+from custom_operator import add, sub, mul, truediv, sin
 import unittest
 import argparse
 

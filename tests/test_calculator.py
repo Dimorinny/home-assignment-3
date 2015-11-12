@@ -4,8 +4,8 @@ import sys
 sys.path.append('../')
 
 from calc import Operator, evaluate
-from custom_operator import add, sub, mul, truediv
-from math import sin
+from custom_operator import add, sub, mul, truediv, sin
+from math import pi
 import unittest
 
 class EvaluateTestCase(unittest.TestCase):
@@ -51,3 +51,11 @@ class OperatorsTestCase(unittest.TestCase):
 
 	def test_sin(self):
 		self.assertAlmostEqual(self.sin(1), 0.8414709848)
+
+	def test_sub2(self):
+		self.assertEqual(self.sub(0.3, 0.1), 0.2)
+
+	def test_sin2(self):
+		self.assertEqual(self.sin(pi/6), 0.5)
+
+		
